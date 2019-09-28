@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>MedHacks 2019</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+<body>
+  <div id="content">
+      <div id="search" class="row">
+          <div class="col-md-12">
+            <!-- Search form -->
+            <form class="form-inline md-form form-sm active-cyan-2 mt-2">
+              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </form>
+          </div>
+      </div>
+      <div class="row">
+          <div  id="history" class="col-md-2 sm-12">
+              <div class="xray_prev">
+                  <h3>9/28/19 - 11:28 AM</h3>
+                  <img src="https://via.placeholder.com/150C/" />
+              </div>
+              <div class="xray_prev">
+                  <h3>9/28/19 - 11:28 AM</h3>
+                  <img src="https://via.placeholder.com/150C/" />
+              </div>
+              <div class="xray_prev">
+                  <h3>9/28/19 - 11:28 AM</h3>
+                  <img src="https://via.placeholder.com/150C/" />
+              </div>
+              <div class="xray_prev">
+                  <h3>9/28/19 - 11:28 AM</h3>
+                  <img src="https://via.placeholder.com/150C/" />
+              </div>
+              <div class="xray_prev">
+                  <h3>9/28/19 - 11:28 AM</h3>
+                  <img src="https://via.placeholder.com/150C/" />
+              </div>
+          </div>
+          <div class="col-md-10">
+            <h2 id="upload">Add a New XRAY</h2>
+            <form action="/file-upload"
+              class="dropzone"
+              id="uploadXray"></form>
+          </div>
+      </div>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../static/js/dropzone.js"></script>
+
+</body>
+</html>

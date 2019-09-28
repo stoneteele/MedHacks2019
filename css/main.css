@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#hero {
+  background-image: url('../images/hero.png');
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+#hero h1 {
+  color: #FFF;
+}
+
+#hero-content {
+  width:100%;
+  top: 50%;
+  position: absolute;
+}
+
+#hero-content h1 {
+  width: 50%;
+  margin: 0 auto;
+}
+#hero-content .btn {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.btn-primary {
+  background-color: #FBAB18;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #E59D24;
+}
+#main {
+  padding: 0 20px;
+}
+
+#service {
+  width: 80%;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.service-col {
+  width:65%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.service-col h3 {
+  color: #FBAB18;
+  font-weight: bold;
+}
+
+#mission {
+  height: 200px;
+}
+
+#content {
+  overflow-x: hidden;
+}
+
+/* dashboard.html */
+#search {
+  background-color: #1D537A;
+  padding:30px;
+}
+
+#search input {
+  height: 50px;
+}
+
+#history {
+  background-color:#EEE;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#history h3 {
+  font-size:0.9rem;
+}
+
+.xray_prev {
+  border-bottom: solid #555 thin;
+  padding-bottom: 10px;
+  padding: 10px;
+}
+
+#uploadXray {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  border: dashed #555 2px;
+  height: 30%;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+#uploadTitle {
+  text-align: center;
+  margin: 20px 0;
+}
+.dz-message {
+  font-size: 1.5em;
+  margin: 4em 0;
+}
